@@ -16,11 +16,11 @@ module.exports = (env) => ({
     contentBase: path.join(__dirname, "dist"),
     historyApiFallback: true,
     compress: true,
-    port: 4343,
+    port: 1313,
     noInfo: true,
     quiet: true,
     clientLogLevel: "warning",
     stats: "errors-only",
-    open: true,
+    open: false,
   },
 });
